@@ -1,16 +1,15 @@
 import propTypes from "prop-types";
 import React from "react";
 const Footer = (props) => {
-	return <h1>hola</h1>
-
-	
+	return (
+		<footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+			<p className="text-center">{props.description}</p>
+		</footer>
+	);
 };
 
-Jumbotron.prototypes = {
-	description1: propTypes.string,
-	description2: propTypes.string,
-	description3: propTypes.string,
-	title: propTypes.string,
+Footer.prototypes = {
+	description: propTypes.string,
 };
 
 export default Footer;

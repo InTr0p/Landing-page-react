@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar.jsx";
 import Jumbotron from "./Jumbotron.jsx";
 import Card from "./Card.jsx";
+import Footer from "./Footer.jsx";
 import image from "../../img/rigo-baby.jpg";
 
 //create your first component
@@ -21,19 +22,8 @@ const Home = () => {
 					buttonTittle="Find Out More"
 					image={image}
 				/>
-				<Card
-					title="Card title "
-					description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-					buttonTittle="Find Out More"
-					image={image}
-				/>
-				<Card
-					title="Card title "
-					description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-					buttonTittle="Find Out More"
-					image={image}
-				/>
 			</div>
+			<Footer description="Copyright © Your Website 2019" />
 		</>
 	);
 };
