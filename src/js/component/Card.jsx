@@ -1,4 +1,3 @@
-import image from "../../img/rigo-baby.jpg";
 import PropTypes from "prop-types";
 import React from "react";
 const Card = (props) => {
