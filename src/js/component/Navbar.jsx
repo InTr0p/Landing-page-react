@@ -1,25 +1,26 @@
 import React from "react";
 const Navbar = () => {
 	return (
-		<nav class="navbar navbar-expand-lg navbar-light bg-light  align-items-end">
-			<div className="container-fluid">
+		<nav className="navbar navbar-expand-lg  bg-dark  align-items-end">
+			<div className="container-fluid px-5">
+				<span className="text-white">Start Bootstrap</span>
 				<button
-					className="navbar-toggler  "
+					className="navbar-toggler"
 					type="button"
 					data-bs-toggle="collapse"
 					data-bs-target="#navbarSupportedContent"
 					aria-controls="navbarSupportedContent"
 					aria-expanded="false"
 					aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
+					<span className="navbar-toggler-icon bg-danger"></span>Name
 				</button>
 				<div
 					className="collapse navbar-collapse"
 					id="navbarSupportedContent">
-					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					<ul className="navbar-nav ms-auto mb-2 mb-lg-0">
 						<li className="nav-item">
 							<a
-								className="nav-link active "
+								className="nav-link active text-white"
 								aria-current="page"
 								href="#">
 								Home
@@ -27,7 +28,7 @@ const Navbar = () => {
 						</li>
 						<li>
 							<a
-								className="nav-link active"
+								className="nav-link active text-muted"
 								aria-current="page"
 								href="#">
 								about
@@ -36,7 +37,7 @@ const Navbar = () => {
 
 						<li>
 							<a
-								className="nav-link active"
+								className="nav-link active text-muted"
 								aria-current="page"
 								href="#">
 								services
@@ -45,7 +46,7 @@ const Navbar = () => {
 
 						<li>
 							<a
-								className="nav-link active"
+								className="nav-link active text-muted"
 								aria-current="page"
 								href="#">
 								contact
@@ -58,4 +59,5 @@ const Navbar = () => {
 		</nav>
 	);
 };
+
 export default Navbar;
