@@ -3,7 +3,6 @@ import Navbar from "./Navbar.jsx";
 import Jumbotron from "./Jumbotron.jsx";
 import Card from "./Card.jsx";
 import Footer from "./Footer.jsx";
-import image from "../../img/rigo-baby.jpg";
 
 //create your first component
 const Home = () => {
@@ -20,7 +19,7 @@ const Home = () => {
 					title="Card title "
 					description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 					buttonTittle="Find Out More"
-					image={image}
+					image={"https://picsum.photos/200"}
 				/>
 			</div>
 			<Footer description="Copyright © Your Website 2019" />
