@@ -59,7 +59,7 @@ Card.propTypes = {
 	title: PropTypes.string,
 	description: PropTypes.string,
 	buttonTittle: PropTypes.string,
-	image: PropTypes.string,
+	image: PropTypes.any,
 };
 
 export default Card;
